@@ -6,17 +6,12 @@ import hero_image_back from "../assets/hero_image_back.png";
 import heart from "../assets/heart.png";
 import calories from "../assets/calories.png";
 import { motion } from "framer-motion";
-import NumberCounter from "number-counter";
 import { Link } from "react-scroll";
 // import { useEffect } from "react";
 
 const Hero = () => {
   const transition = { duration: 3, type: "spring" };
   const mobile = window.innerWidth <= 768 ? true : false;
-  // useEffect(() => {
-  //   const b = document.querySelector("best-ad::before");
-  //   b.style = { color: "var(--orange)", left: "20px" };
-  // });
   return (
     <div className="hero" id="home">
       <div className="blur hero-blur"></div>
@@ -48,17 +43,13 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <div>
-                <NumberCounter end={100} start={80} delay={4} preFix="+" />
-              </div>
+              <div>+100</div>
             </span>
             <span>Members joined</span>
           </div>
           <div>
             <span>
-              <div>
-                <NumberCounter end={50} delay={2} preFix="+" />{" "}
-              </div>
+              <div>+50</div>
             </span>
             <span>fitness programs</span>
           </div>
