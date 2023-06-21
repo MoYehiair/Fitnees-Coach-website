@@ -7,6 +7,8 @@ import heart from "../assets/heart.png";
 import calories from "../assets/calories.png";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
+import NumberCounter from "number-counter";
+
 // import { useEffect } from "react";
 
 const Hero = () => {
@@ -43,13 +45,17 @@ const Hero = () => {
         <div className="figures">
           <div>
             <span>
-              <div>+100</div>
+              <div>
+                <NumberCounter end={100} start={80} delay={4} preFix="+" />
+              </div>
             </span>
             <span>Members joined</span>
           </div>
           <div>
             <span>
-              <div>+50</div>
+              <div>
+                <NumberCounter end={50} delay={2} preFix="+" />{" "}
+              </div>
             </span>
             <span>fitness programs</span>
           </div>

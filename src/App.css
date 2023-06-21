@@ -50,11 +50,3 @@ body {
   position: absolute;
   z-index: -9;
 }
-.main-icon1{
-  width: 30px;
-	height: 30px;
-	background-size: cover;
-	background-repeat: no-repeat;
-	display: inline-block;
-  background-image: url(assets/logo1.svg);
-}
