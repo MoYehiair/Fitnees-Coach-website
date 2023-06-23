@@ -8,11 +8,16 @@
   position: relative;
 }
 
+.footer .footer-logo{
+  z-index: 11;
+
+}
 .icons {
   display: flex;
   gap: 3rem;
   padding: 1rem;
   color: white;
+  z-index: 11;
 }
 .icons > a > img {
   width: 2rem;
@@ -20,13 +25,18 @@
 
 
 }
+
 .main-logo{
   /* height: 3rem; */
   width: 9rem;
+
 }
 .icons > :nth-child(1) {
   color: var(--orange);
+
+
 }
+
 .blur-footer-1 {
   width: 26rem;
   height: 11rem;
@@ -42,4 +52,6 @@
   font-weight: 700;
   font-size: 2rem;
   color: white;
+  z-index: 11;
+
 }

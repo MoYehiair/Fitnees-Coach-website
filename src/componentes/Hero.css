@@ -8,6 +8,7 @@
   padding: 2rem;
   padding-top: 1.5rem;
   flex: 3;
+  z-index: 11;
 }
 .hero-r {
   flex: 1;
@@ -124,7 +125,7 @@
   right: 13rem;
   top: -4rem;
   width: 19rem;
-  z-index: -1;
+  /* z-index: -1; */
 }
 .hero-r > .btn {
   position: absolute;
@@ -199,6 +200,8 @@
   }
   .hero-blur {
     width: 14rem;
+    z-index: 1;
+
   }
   .best-ad {
     margin-top: 2rem;
@@ -238,6 +241,7 @@
   .heart-rate {
     left: 1rem;
     top: 2rem;
+    z-index: 11;
   }
   .stats {
     position: relative;
@@ -263,5 +267,6 @@
     width: 15rem;
     left: 2rem;
     top: 0rem;
+    z-index: -1;
   }
 }

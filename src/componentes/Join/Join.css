@@ -33,7 +33,7 @@
 
   align-items: center;
 }
-/* .input > form {
+.input > form {
   background-color: gray;
   display: flex;
   gap: 3rem;
@@ -45,14 +45,14 @@
   background-color: transparent;
   outline: none;
   color: white;
-} */
-/* form > input::placeholder {
+} 
+form > input::placeholder {
   color: var(--lightgray);
   padding: 0.4rem;
   font-weight: 200;
-} */
+} 
 
-.input > a {
+.input > form > a {
   background-color: orange;
   padding: 0.5rem;
   font-weight: bold;

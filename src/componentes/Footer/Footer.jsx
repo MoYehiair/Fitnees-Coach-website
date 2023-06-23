@@ -30,7 +30,7 @@ const Footer = () => {
           <img src={whatsapp} alt="" />
         </a>
       </div>
-      <div>
+      <div className="footer-logo">
         <img className="main-logo" src={logo} alt="" />
       </div>
     </div>
