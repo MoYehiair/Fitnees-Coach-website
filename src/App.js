@@ -7,6 +7,7 @@ import Plans from "./componentes/Plans/Plans";
 import Testemonials from "./componentes/testemonials/Testemonials";
 import Join from "./componentes/Join/Join";
 import Footer from "./componentes/Footer/Footer";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Testemonials />
       <Join />
       <Footer />
+      <Analytics />
     </div>
   );
 }
